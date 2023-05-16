@@ -1,13 +1,24 @@
+<meta charset="UTF-8">
 <script>
     //Problema: Maior número
     //Peça para o usuário informar dois números e diga, ao final do programa, qual dos dois é o maior número.
 
     //ENTRADA
-
+    const Num1 = Number(prompt(`informe um numero`));
+    const Num2 = Number(prompt(`informe outro numero`));
 
     //PROCESSAMENTO
+    if (Num1 > Num2) {
+        alert(`${Num1} é mais alto que ${Num2}`);
+    }
 
+    else if (Num2 > Num1) {
+        alert(`${Num2} é maior que ${Num1}`)
+    }
 
-    //SAÍDA
+    else if (Num1 == Num2) {
+        alert(`os dois numeros sao iguais`)
+    }
+
 
 </script>
